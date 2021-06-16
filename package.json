@@ -1,0 +1,23 @@
+{
+  "name": "basset-day-calander-backend",
+  "version": "1.0.0",
+  "description": "Backend for reading the file system of basset calander",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "multer": "^1.4.2",
+    "path": "^0.12.7",
+    "router": "^1.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon ./server.js localhost 3080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brendan Giberson",
+  "license": "ISC"
+}
